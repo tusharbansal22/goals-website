@@ -40,5 +40,5 @@ gsap.from("#title-text", {
   scrollTrigger: {
     scrub:true
   },
-  x : 300,
+  x : 0,
 })

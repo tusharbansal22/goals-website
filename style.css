@@ -76,9 +76,10 @@ header{
 
 #title-text{
   position: absolute;
-  top:50vw;
-  transform: translateY(-32vw);
-  font-size: 8em;
+  top:30vh;
+  left:50vw;
+  /* transform: translateY(-25vw); */
+  font-size: 6vh;
   font-weight: 700;
   color:#112345;
 }
