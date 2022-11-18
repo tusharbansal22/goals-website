@@ -2,7 +2,7 @@ gsap.from("#m1", {
   scrollTrigger: {
     scrub:true
   },
-  y: 100,
+  y: 80,
 })
 gsap.from("#m2", {
   scrollTrigger: {
@@ -20,7 +20,7 @@ gsap.from("#t1", {
   scrollTrigger: {
     scrub:true
   },
-  x : 50,
+  x : 100,
 })
 
 gsap.from("#man", {

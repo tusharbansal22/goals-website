@@ -17,7 +17,7 @@ header{
   top:0;
   left:0;
   width:100vw; 
-  padding:30px 100px;
+  padding:2vh 4vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,9 +26,6 @@ header{
 
 .logo{
   color:#112345;
-  font-weight: 700;
-  font-size: 2em;
-  text-decoration: none;
 }
 
 .logo img{
@@ -39,7 +36,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20px;
+  gap:2vw;
 }
 
 .navigation li{
@@ -48,7 +45,7 @@ header{
 }
 .navigation li a{
   text-decoration: none;
-  padding: 6px 15px;
+  padding: 1vh 2vw;
   color:#112434;
   border-radius: 20px;
 }
@@ -79,7 +76,7 @@ header{
   top:30vh;
   left:50vw;
   /* transform: translateY(-25vw); */
-  font-size: 6vh;
+  font-size: 6vw;
   font-weight: 700;
   color:#112345;
 }
