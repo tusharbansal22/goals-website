@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #fff;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+header{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw; 
+  padding:30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo{
+  color:#112345;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.logo img{
+  width:8vw;
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+.navigation li{
+  list-style: none;
+
+}
+.navigation li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color:#112434;
+  border-radius: 20px;
+}
+.navigation li a:hover, .navigation li a.active{
+  /* filter:invert(100); */
+  background: #112345;
+  color:white;
+}
+
+.parallax{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.parallax img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width:100vw; 
+  pointer-events: none;
+}
+
+#title-text{
+  position: absolute;
+  top:50vw;
+  transform: translateY(-32vw);
+  font-size: 8em;
+  font-weight: 700;
+  color:#112345;
+}
+
+/* #m1,#m2,#t1,#plants,#t1,#t2{
+  filter: invert(100);
+} */
+.second{
+  position: relative;
+  padding: 100px;
+  background: #112434;
+}
+
+.second h2{
+  font-size: 3em;
+  color:#fff;
+  margin-bottom: 10px;
+}
+
+.second p{
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300 ;
+}
