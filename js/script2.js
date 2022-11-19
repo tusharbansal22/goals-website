@@ -1,7 +1,7 @@
 const textm1= document.querySelector('.img-box-text .m1')
 textm1.innerHTML=textm1.innerText.split("").map(
   (char,i)=>
-  `<span style="transform:rotate(${11*i}deg)">${char}</span>`
+  `<span style="transform:rotate(${20*i}deg)">${char}</span>`
 ).join("")
 const textm2= document.querySelector('.img-box-text .m2')
 textm2.innerHTML=textm2.innerText.split("").map(

@@ -10,6 +10,10 @@ body{
   background-color: #fff;
   min-height: 100vh;
   max-width: 100vw;
+  background: linear-gradient( #f7bacc,#ffe8ef);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #69a2db; */
 }
 
 header{
@@ -61,6 +65,7 @@ header{
   justify-content: center;
   align-items: center;
   height:100vh;
+  /* background: linear-gradient( #f7bacc,#ffe8ef); */
 }
 
 .parallax img{
@@ -85,8 +90,10 @@ header{
   filter: invert(100);
 } */
 .second{
+  width: 100vw;
+  height: 100vh;
   position: relative;
-  padding: 4vw;
+  padding: 4vw 5vh;
   background: #112434;
 }
 
@@ -100,6 +107,7 @@ header{
   color: #fff;
   font-size: 1em;
   font-weight: 300 ;
+  text-align: justify;
 }
 
 .member{
@@ -190,6 +198,10 @@ header{
     font-weight: 900;
     color:#112345; 
   }
+  .second{
+    padding:10vw 5vh; 
+  }
+  
 }
 
 .library{
@@ -212,4 +224,23 @@ header{
 
 .library table{
   margin:0 5vw;
+}
+
+.literary{
+  position: absolute;
+  top:30vh;
+  color:#112434;
+  width:100vw;
+  display:flex;
+  flex-direction: column;
+  direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin:0 auto;
+}
+
+.literary iframe{
+  width:100vw;
+  min-height: 100vh;
 }
