@@ -180,3 +180,36 @@ header{
   width:200px;
   height: 200px;
 }
+
+@media screen and (max-width:500px) {
+  #title-text{
+    position: absolute;
+    left:20vw;
+    top:50vh;
+    font-size: 20vw;
+    font-weight: 900;
+    color:#112345; 
+  }
+}
+
+.library{
+  position: absolute;
+  top:20vh;
+  color:#112434;
+  width:100vw;
+  display:flex;
+  flex-direction: column;
+  direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin:0 auto;
+}
+
+.library p{
+  padding:2vh 4vw;
+}
+
+.library table{
+  margin:0 5vw;
+}
