@@ -23,7 +23,7 @@ body{
   top:0;
   left:0;
   width: 100vw;
-  height: 100vh;
+  height: 100vh; 
 }
 
 header{
@@ -161,12 +161,87 @@ header{
   position: absolute;
   width:150px;
   height: 150px;
-  background: url(images/member1.jpg);
+  /* background: url(images/member1.jpg); */
   background-size:cover ;
   border-radius: 50%;
   /* filter: brightness(1.5) contrast(1.5); */
 
 }
+/* MEMBER IMAGES CHANGE HERE */
+.imgc1{
+  background: url('images/rishit.jpg');
+  background-size:cover ;
+}
+.imgc2{
+  background: url('images/vidhi.jpg');
+  background-size:cover ;
+}
+
+.imgm1{
+  background: url('images/vidhi.jpg');
+  background-size:cover ;
+}
+.imgm2{
+  background: url('images/amruta.jpg');
+  background-size:cover ;
+}
+.imgm3{
+  background: url('images/sunil.jpeg');
+  background-size:cover ;
+}
+.imgm4{
+  background: url('images/adisan.png');
+  background-size:cover ;
+}
+.imgm5{
+  background: url('images/eti.jpg');
+  background-size:cover ;
+}
+.imgm6{
+  background: url('images/esha.jpg');
+  background-size:cover ;
+}
+.imgm7{
+  background: url('images/anjana.jpg');
+  background-size:cover ;
+}
+.imgm8{
+  background: url('images/hemanth.jpg');
+  background-size:cover ;
+}
+.imgm9{
+  background: url('images/dhruv.png');
+  background-size:cover ;
+}
+.imgm10{
+  background: url('images/sankalp.jpg');
+  background-size:cover ;
+}
+.imgm11{
+  background: url('images/jv.jpeg');
+  background-size:cover ;
+}
+.imgm12{
+  background: url('images/javed.jpeg');
+  background-size:cover ;
+}
+.imgm13{
+  background: url('images/sanskar.jpg');
+  background-size:cover ;
+}
+.imgm14{
+  background: url('images/tushar.jpg');
+  background-size:cover ;
+}
+.imgm15{
+  background: url('images/javed.jpeg');
+  background-size:cover ;
+}
+
+#m4,#m11{
+  color:gold;
+}
+
 
 .img-box-text{
   position: absolute;
